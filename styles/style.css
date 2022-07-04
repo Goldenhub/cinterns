@@ -636,7 +636,7 @@ footer{
     .button{
         display: none;
     }
-    .arrow{
+    /* .arrow{
         position: absolute;
         top: 70%;
         left: 50%;
@@ -659,5 +659,5 @@ footer{
     }
     .arrow span:nth-child(3){
         animation-delay: -.4s;
-    }
+    } */
 }
