@@ -356,8 +356,8 @@ a{
     left: 50%;
     top: -50px;
     transform: translateX(-50%);
-    width: 100px;
-    height: 100px;
+    width: 120px;
+    height: 120px;
     background: #fff;
     border-radius: 20px;
     box-shadow: 0px 15px 50px rgba(0,0,0,0.35);
@@ -386,7 +386,8 @@ a{
     align-items: flex-end;
   }
   .card .content .details{
-    padding: 40px;
+    /* padding: 40px; */
+    padding: 20px 30px;
     text-align: center;
     font-family: GTWalshiemPro;
     width: 100%;
