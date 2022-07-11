@@ -598,7 +598,17 @@ footer{
 }
 
 @media screen and (max-width: 768px) {
+    .hero-section{
+        /* margin-top: 100px; */
+        height: 70%;
+    }
+    ul{
+        display: flex;
+        justify-content: space-between;
+        padding: 20px 20px;
+    }
     .bulb-container{
+        top: 10%;
         left: 50%;
         transform: translate(-50%,-50%);
     }
@@ -627,12 +637,15 @@ footer{
         justify-content: center;
         text-align: center;
         padding-left: 0;
+        height: 100vh;
         padding-top: 0;
         padding-bottom: 120px;
     }
     .hero-section_text h1{
         font-size: 70px;
-        line-height: 80px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        line-height: 70px;
     }
     .button{
         display: none;
