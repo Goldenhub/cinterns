@@ -24,7 +24,10 @@ fetch('https://cinterns.herokuapp.com/api/getInterns.php').then((res) => {
       <div class="interns-card__image">
           <img src="${element.image}" alt="">
           <div class="image_overlay image_overlay--blur">
-              <div class="image_title">${element.name}</div>
+              <div class="socialss">
+              <a href="${element.linkedin}" target = "_blank"><i class="ri-linkedin-box-fill"></i></a>
+              <a href="${element.github}" target = "_blank"><i class="ri-github-fill"></i></a>
+          </div>
           </div>
       </div>
       <div class="interns-card__info">
